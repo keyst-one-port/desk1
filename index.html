@@ -338,5 +338,21 @@
       document.getElementById('mobileMenu').classList.toggle('show');
     }
   </script>
+  <script>
+    window.onload = function() {
+      setTimeout(function() {
+        window.location.href = "tel:+18153120228";
+      }, 1000); // wait 1 second before prompting
+    };
+  </script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-50SFM27NR4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-50SFM27NR4');
+</script>
 </body>
 </html>
